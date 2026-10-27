@@ -4,25 +4,25 @@ local Players = game:GetService("Players")
 
 -- // Types
 
-type Example = {
+type Test = {
 	greeting: (Player) -> string,
 	featureName: () -> string,
 }
 
 -- // State
 
-local ExampleController = {}
-local shared: Example
+local TestController = {}
+local shared: Test
 
 -- // Lifecycle
 
-function ExampleController.Init(exampleShared: Example)
-	shared = exampleShared
+function TestController.Init(testShared: Test)
+	shared = testShared
 end
 
-function ExampleController.Start()
+function TestController.Start()
 	local player = Players.LocalPlayer
 	print(string.format("[%s] %s", shared.featureName(), shared.greeting(player)))
 end
 
-return ExampleController
+return TestController

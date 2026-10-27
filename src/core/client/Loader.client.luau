@@ -4,10 +4,10 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local sharedFolder = ReplicatedStorage:WaitForChild("Shared") :: Folder
 local clientFolder = script:FindFirstAncestor("Client") :: Folder
-local ExampleController = require(clientFolder.features.example.ExampleController)
-local Example = require(sharedFolder.features.example.Example)
+local TestController = require(clientFolder.features.test.TestController)
+local Test = require(sharedFolder.features.test.Test)
 
 -- // Lifecycle
 
-ExampleController.Init(Example)
-ExampleController.Start()
+TestController.Init(Test)
+TestController.Start()

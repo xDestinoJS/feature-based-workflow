@@ -20,10 +20,10 @@
 				"features": {
 					"$className": "Folder",
 					"$ignoreUnknownInstances": false,
-					"example": {
+					"test": {
 						"$ignoreUnknownInstances": false,
 						"$path": {
-							"optional": "src/features/example/shared"
+							"optional": "src/features/test/shared"
 						}
 					}
 				}
@@ -44,10 +44,10 @@
 				"features": {
 					"$className": "Folder",
 					"$ignoreUnknownInstances": false,
-					"example": {
+					"test": {
 						"$ignoreUnknownInstances": false,
 						"$path": {
-							"optional": "src/features/example/server"
+							"optional": "src/features/test/server"
 						}
 					}
 				}
@@ -74,10 +74,10 @@
 					"features": {
 						"$className": "Folder",
 						"$ignoreUnknownInstances": false,
-						"example": {
+						"test": {
 							"$ignoreUnknownInstances": false,
 							"$path": {
-								"optional": "src/features/example/client"
+								"optional": "src/features/test/client"
 							}
 						}
 					}

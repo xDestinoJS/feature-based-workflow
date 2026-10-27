@@ -17,4 +17,4 @@ Each feature owns three optional realms under `src/features/<name>`:
 - `server/` contains the feature service.
 - `client/` contains the feature controller.
 
-The `example` feature is wired through the two bootstrap loaders and uses `Example` from both `ExampleService` and `ExampleController`.
+The `test` feature is wired through the two bootstrap loaders and uses `Test` from both `TestService` and `TestController`.

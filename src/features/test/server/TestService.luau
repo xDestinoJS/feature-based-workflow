@@ -4,26 +4,26 @@ local Players = game:GetService("Players")
 
 -- // Types
 
-type Example = {
+type Test = {
 	greeting: (Player) -> string,
 	featureName: () -> string,
 }
 
 -- // State
 
-local ExampleService = {}
-local shared: Example
+local TestService = {}
+local shared: Test
 
 -- // Lifecycle
 
-function ExampleService.Init(exampleShared: Example)
-	shared = exampleShared
+function TestService.Init(testShared: Test)
+	shared = testShared
 end
 
-function ExampleService.Start()
+function TestService.Start()
 	Players.PlayerAdded:Connect(function(player)
 		print(string.format("[%s] %s", shared.featureName(), shared.greeting(player)))
 	end)
 end
 
-return ExampleService
+return TestService
