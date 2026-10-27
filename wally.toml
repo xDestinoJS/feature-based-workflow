@@ -1,0 +1,29 @@
+[package]
+name = "troyshakespeare/feature-based-workflow"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+private = false
+
+[dependencies]
+Packet = "thehoosky/packet@1.0.3"
+Signal = "sleitnick/signal@1.2.1"
+Cmdr = "evaera/cmdr@1.9.0"
+Sift = "csqrl/sift@0.0.11"
+Vide = "centau/vide@0.4.1"
+Trove = "sleitnick/trove@1.8.0"
+Sera = "enzzyfrenzzy/sera@0.0.2"
+ForgeVFX = "zilibobi/forge-vfx@2.4.0"
+Ripple = "littensy/vide-ripple@0.10.2"
+DataServiceTyped = "leifstout/dataservicetyped@1.0.3"
+TableUtil = "sleitnick/table-util@1.2.1"
+Shake = "sleitnick/shake@1.1.0"
+Charm = "littensy/charm@0.11.0"
+VideCharm = "littensy/vide-charm@0.4.0"
+FormatNumber = "kumarion/formatnumber@0.0.1"
+Module3D = "kumarion/module3d@0.0.2"
+GameState = "venignuss/gamestate@0.1.0"
+Satchel = "ryanlua/satchel@1.4.1"
+ezVisualz = "arxkdev/ezvisualz@0.0.6"
+TopbarPlus = "1foreverhd/topbarplus@3.4.0"
+

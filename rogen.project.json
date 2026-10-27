@@ -1,0 +1,66 @@
+{
+	"name": "feature-based-workflow",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$path": "Packages"
+			},
+			"Shared": {
+				"$className": "Folder",
+				"core": {
+					"$path": {
+						"optional": "src/core/shared"
+					}
+				},
+				"features": {
+					"$className": "Folder",
+					"example": {
+						"$path": {
+							"optional": "src/features/example/shared"
+						}
+					}
+				}
+			}
+		},
+		"ServerScriptService": {
+			"Server": {
+				"$className": "Folder",
+				"core": {
+					"$path": {
+						"optional": "src/core/server"
+					}
+				},
+				"features": {
+					"$className": "Folder",
+					"example": {
+						"$path": {
+							"optional": "src/features/example/server"
+						}
+					}
+				}
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"Client": {
+					"$className": "Folder",
+					"core": {
+						"$path": {
+							"optional": "src/core/client"
+						}
+					},
+					"features": {
+						"$className": "Folder",
+						"example": {
+							"$path": {
+								"optional": "src/features/example/client"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

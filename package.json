@@ -1,0 +1,11 @@
+{
+    "name": "feature-based-workflow",
+    "private": false,
+    "scripts": {
+        "project": "rogen build",
+        "lint": "selene src"
+    },
+    "devDependencies": {
+        "@ldgerrits/rogen": "1.4.4"
+    }
+}

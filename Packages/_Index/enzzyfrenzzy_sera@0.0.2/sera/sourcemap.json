@@ -1,0 +1,1 @@
+{"name":"Sera","className":"ModuleScript","filePaths":["src/init.luau","default.project.json"],"children":[{"name":"Sera","className":"ModuleScript","filePaths":["src/Sera.luau"]},{"name":"Test","className":"ModuleScript","filePaths":["src/Test.luau"]}]}

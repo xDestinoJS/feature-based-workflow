@@ -1,0 +1,8 @@
+[package]
+name = "enzzyfrenzzy/sera"
+description = "A package port of Loleris's Sera module, used by both the server & client. check README.md for more info. Last updated on 2025-10-20."
+version = "0.0.2"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]

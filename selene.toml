@@ -1,0 +1,8 @@
+std = "roblox"
+exclude = [
+    "src/DataModel/**",
+]
+
+[lints]
+shadowing = "allow"
+mixed_table = "allow"

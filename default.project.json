@@ -1,0 +1,89 @@
+{
+	"globIgnorePaths": [
+		"**/*.meta.json"
+	],
+	"name": "feature-based-workflow",
+	"tree": {
+		"$className": "DataModel",
+		"$ignoreUnknownInstances": true,
+		"Lighting": {},
+		"ReplicatedFirst": {},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"Packages": {
+				"$path": "Packages"
+			},
+			"Shared": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": false,
+				"features": {
+					"$className": "Folder",
+					"$ignoreUnknownInstances": false,
+					"example": {
+						"$ignoreUnknownInstances": false,
+						"$path": {
+							"optional": "src/features/example/shared"
+						}
+					}
+				}
+			}
+		},
+		"RobloxPluginGuiService": {},
+		"ServerScriptService": {
+			"$ignoreUnknownInstances": true,
+			"Server": {
+				"$className": "Folder",
+				"$ignoreUnknownInstances": false,
+				"core": {
+					"$ignoreUnknownInstances": false,
+					"$path": {
+						"optional": "src/core/server"
+					}
+				},
+				"features": {
+					"$className": "Folder",
+					"$ignoreUnknownInstances": false,
+					"example": {
+						"$ignoreUnknownInstances": false,
+						"$path": {
+							"optional": "src/features/example/server"
+						}
+					}
+				}
+			}
+		},
+		"ServerStorage": {},
+		"SoundService": {},
+		"StarterGui": {},
+		"StarterPack": {},
+		"StarterPlayer": {
+			"$ignoreUnknownInstances": true,
+			"StarterCharacterScripts": {},
+			"StarterPlayerScripts": {
+				"$ignoreUnknownInstances": true,
+				"Client": {
+					"$className": "Folder",
+					"$ignoreUnknownInstances": false,
+					"core": {
+						"$ignoreUnknownInstances": false,
+						"$path": {
+							"optional": "src/core/client"
+						}
+					},
+					"features": {
+						"$className": "Folder",
+						"$ignoreUnknownInstances": false,
+						"example": {
+							"$ignoreUnknownInstances": false,
+							"$path": {
+								"optional": "src/features/example/client"
+							}
+						}
+					}
+				}
+			}
+		},
+		"Workspace": {}
+	}
+}

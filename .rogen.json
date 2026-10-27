@@ -1,0 +1,47 @@
+{
+    "source": ["src"],
+    "casing": "PascalCase",
+    "verbatim": false,
+    "unwrap": false,
+    "globIgnorePaths": ["**/*.meta.json"],
+    "luau": {
+        "output": "default.project.json",
+        "build": "src",
+        "globIgnorePaths": ["**/*.meta.json"]
+    },
+    "project": {
+        "name": "feature-based-workflow",
+        "tree": {
+            "$className": "DataModel",
+            "$ignoreUnknownInstances": true,
+            "ReplicatedStorage": {
+                "$className": "ReplicatedStorage",
+                "$ignoreUnknownInstances": true,
+                "Packages": {
+                    "$path": "Packages"
+                },
+                "Shared": {
+                    "$className": "Folder",
+                    "$ignoreUnknownInstances": false
+                }
+            },
+            "ServerScriptService": {
+                "$ignoreUnknownInstances": true,
+                "Server": {
+                    "$className": "Folder",
+                    "$ignoreUnknownInstances": false
+                }
+            },
+            "StarterPlayer": {
+                "$ignoreUnknownInstances": true,
+                "StarterPlayerScripts": {
+                    "$ignoreUnknownInstances": true,
+                    "Client": {
+                        "$className": "Folder",
+                        "$ignoreUnknownInstances": false
+                    }
+                }
+            }
+        }
+    }
+}

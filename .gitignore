@@ -1,0 +1,20 @@
+# Rogen / Argon project
+/sourcemap.json
+/.dev.lock
+
+# Wally
+/ServerPackages
+/DevPackages
+
+# Artifacts
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
+
+# Node
+/node_modules
+
+# Editor / OS
+.vscode
+.DS_Store
